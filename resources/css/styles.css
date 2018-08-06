@@ -16,16 +16,19 @@ h2 {
   font-family: Helvetica, sans-serif;
   font-size: 32px;
   font-weight: bold;
+  color: #000000;
 }
 
 h3 {
   font-family: Helvetica, sans-serif;
   font-size: 23px;
   font-weight: bold;
+  color: #000000;
 }
 
 h3.whiteHeader {
-  background: url(".resources/images/the-flatiron-building.png");
+  background: url("../images/the-flatiron-building.png");
+  background-size: cover;
   font-family: Helvetica, sans-serif;
   font-size: 23px;
   font-weight: bold;
@@ -35,10 +38,13 @@ h3.whiteHeader {
 p {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
+  color: #000000;
 }
 
 .header {
-  background: url(".resources/images/the-flatiron-building.png")
+  background: url("../images/the-flatiron-building.png");
+  background-size: cover;
+  text-align: center;
 }
 
 .footer {
@@ -47,4 +53,9 @@ p {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+.btn-nav {
+  font-size: 18px;
+  color: white;
 }
